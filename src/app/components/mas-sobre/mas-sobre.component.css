@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+    .iconos-nosotros {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.icono {
+    text-align: center;
+    margin-right: 30px;
+}
+
+@media (min-width: 768px) {
+    .icono img{
+
+    max-width:150px;
+    margin-left: 10px;
+    height: 100px;
+    }
+}
+
+.icono h3 {
+    text-transform: uppercase;
+}
+

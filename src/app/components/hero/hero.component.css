@@ -1,0 +1,68 @@
+/*Header*/
+.site-header {
+    background-color: #333333;
+    padding: 1rem 0 3rem 0;
+}
+
+    .site-header.inicio {
+        background-image: url(/assets/Imagenes/Hero.jpg);
+        background-position: center center;
+        background-size: cover;
+        height: 100vh;
+        min-height: 60rem;
+    }
+
+.contenido-header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.contenido-header h1 {
+    color: white;
+    padding-bottom: 2rem;
+    max-width: 60rem;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.barra {
+    padding-top: 3rem;
+}
+.barra img{
+    width:100px;
+    height: 100px;
+}
+
+@media(min-width: 768px) {
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+/** Navegacion **/
+.navegacion a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-size: 2.2rem;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .navegacion a {
+        display: inline-block;
+        margin-right: 2rem;
+        font-size: 1.8;
+    }
+
+    .navegacion a:last-of-type {
+        margin: 0;
+    }
+}
+
+.navegacion a:hover {
+    color: #71B100;
+}
