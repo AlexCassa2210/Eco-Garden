@@ -1,5 +1,5 @@
 /** Footer **/
-.site-footer {
+/* .site-footer {
     background-color: #333333;
     margin: 0;
 }
@@ -16,7 +16,7 @@
     }
 }
 
-.site-footer nav { /* Estas líneas es para ocultar el menú en celular */
+.site-footer nav {
     display: none;
 }
 
@@ -29,10 +29,10 @@
 .copyright {
     margin: 0;
     color: #ffffff;
-}
+} */
 
 /* Navegacion */
-.navegacion a {
+/* .navegacion a {
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
     font-size: 2.2rem;
@@ -53,4 +53,101 @@
 
 .navegacion a:hover {
     color: #71B100;
+} */
+
+
+/*CLEAR FIX*/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* GENERALES*/
+.contenedor {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Lexend Zetta', sans-serif;
+}
+
+h2 {
+    font-size: 2.9rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+input{
+    margin-right:25px;
+}
+i{
+    color:#a18d6c;
+}
+
+
+  /** FOOTER **/
+@media only screen and (min-width: 768px) {
+    footer.contenedor>div {
+      width: 33.3%;
+      float: left;
+    }
+}
+  
+
+footer {
+    background-color: #353535;
+    padding-top: 40px;
+}
+
+footer .contenedor > div {
+    color: #ffffff;
+    padding: 0px 20px;
+    font-size: 12px;
+    width: 45%;
+    float: left;
+}
+
+footer h3 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}
+
+footer h3 {
+    color: #a18d6c;
+}
+
+footer .ultimos-noticias li {
+    margin-bottom: 10px;
+}
+
+footer nav.redes-sociales {
+    text-align: left;
+}
+
+p.copyright {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    padding: 10px 0;
+    margin: 20px 0 0 0;
+    text-align: center;
 }
