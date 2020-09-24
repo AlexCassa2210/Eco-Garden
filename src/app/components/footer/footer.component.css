@@ -1,60 +1,3 @@
-/** Footer **/
-/* .site-footer {
-    background-color: #333333;
-    margin: 0;
-}
-
-.contenedor-footer {
-    padding: 3rem 0;
-    text-align: center;
-}
-
-@media (min-width: 768px) {
-    .contenedor-footer {
-        display: flex;
-        justify-content: space-between;
-    }
-}
-
-.site-footer nav {
-    display: none;
-}
-
-@media (min-width: 768px) {
-    .site-footer nav {
-        display: block;
-    }
-}
-
-.copyright {
-    margin: 0;
-    color: #ffffff;
-} */
-
-/* Navegacion */
-/* .navegacion a {
-    color: rgba(255, 255, 255, 1);
-    text-decoration: none;
-    font-size: 2.2rem;
-    display: block;
-}
-
-@media (min-width: 768px) {
-    .navegacion a {
-        display: inline-block;
-        margin-right: 2rem;
-        font-size: 1.8;
-    }
-
-    .navegacion a:last-of-type {
-        margin: 0;
-    }
-}
-
-.navegacion a:hover {
-    color: #71B100;
-} */
-
 
 /*CLEAR FIX*/
 .clearfix:before,
@@ -90,6 +33,7 @@ h2 {
     font-size: 2.9rem;
 }
 
+
 ul {
     list-style: none;
     margin: 0;
@@ -106,11 +50,12 @@ i{
   /** FOOTER **/
 @media only screen and (min-width: 768px) {
     footer.contenedor>div {
-      width: 33.3%;
-      float: left;
+        width: 50%;
+        float: left;
     }
 }
-  
+
+    
 
 footer {
     background-color: #353535;
@@ -121,27 +66,31 @@ footer .contenedor > div {
     color: #ffffff;
     padding: 0px 20px;
     font-size: 12px;
-    width: 45%;
+    width: 100%;
     float: left;
+    margin-bottom: 20px;
 }
 
 footer h3 {
     color: #ffffff;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 footer h3 {
     color: #a18d6c;
 }
 
-footer .ultimos-noticias li {
-    margin-bottom: 10px;
-}
 
 footer nav.redes-sociales {
     text-align: left;
+    font-size: 5em;
+}
+.redes-sociales i{
+    padding: 0 20px 0 0; 
+    margin: 0 0 0 0;
+
 }
 
 p.copyright {

@@ -13,6 +13,9 @@ import { Footer } from './components/footer/footer.component';
 
 import { ContactoComponent } from './components/contacto/contacto.component';
 
+
+
+
 /* const rutas: Routes = [
   {
     path: '',

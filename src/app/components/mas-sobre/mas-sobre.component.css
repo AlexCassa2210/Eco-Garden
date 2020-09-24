@@ -18,7 +18,9 @@
     height: 100px;
     }
 }
-
+.icono img{
+    max-width: 40%;
+}
 .icono h3 {
     text-transform: uppercase;
 }
