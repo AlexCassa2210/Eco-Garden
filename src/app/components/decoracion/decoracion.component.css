@@ -12,11 +12,14 @@
 .contenido-contacto {
     flex: 0 0 95%;
     color: #ffffff;
+
 }
 
 .contenido-contacto p {
     font-size: 1.8rem;
+
 } 
+
 
 /* .programa {
     position: relative;

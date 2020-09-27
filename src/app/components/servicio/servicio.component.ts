@@ -9,13 +9,12 @@ import { Component } from '@angular/core';
   export class Servicio{
     public nombre: string; public nombre1: string;public nombre2: string
     public descripcion: string;public descripcion1: string;public descripcion2: string;
-    public precio: string;public precio1: string;public precio2: string;
 
     constructor(){
-        this.nombre = "Casa de Lujo "; this.nombre1 = "Casa terminados"; this.nombre2 = "Casa con alberca"
-        this.descripcion = "Casa en el lago con excelente vista, acabados de lujo a un excelente precio";
-        this.descripcion1 = "Casa con diseño moderno, así como tecnología inteligente y amueblada";
-        this.descripcion2 = "Casa con alberca y acabados de lujo en la ciudad, excelente oportunidad"
-        this.precio = "$3,000,000";this.precio1 = "$2,000,000";this.precio2 = "$3,000,000";
+        this.nombre = "Mantenimiento general"; this.nombre1 = "Jardines para exterior e interior"; this.nombre2 = "Servicios especiales"
+        this.descripcion = "Se realiza corte del césped de su jardín, lote o finca. Además corta preventiva de árboles, mantenimiento de cercas verdes, siembra de plantas y árboles.";
+        this.descripcion1 = "Contamos con experiencia y personal capacitado para la elaboración y mantenimiento de todo tipo de jardines para exteriores e interiores según la necesidad y ambiente. Se realizan el planeamiento, recomendación y cotización de su jardín preferido. Contamos con todo tipo de insumos de la más alta calidad.";
+        this.descripcion2 = "pensando en su comodidad le brindamos el servicio de lavado de aceras y exteriores de su propiedad, recolección y limpieza de propiedades, limpieza de canoas y todo lo relacionado con el mantenimiento de su vivienda. Fabricación,  asesoramiento y mantenimiento de huertas."
+
     }
   }

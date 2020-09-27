@@ -37,8 +37,8 @@
     padding-top: 3rem;
 }
 .barra img{
-    width:100px;
-    height: 100px;
+    width:200px;
+    height: 200px;
 }
 
 @media(min-width: 768px) {

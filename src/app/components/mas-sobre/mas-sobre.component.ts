@@ -16,9 +16,9 @@ export class masSobre {
     this.titulo2 = "El Mejor Precio";
     this.titulo3 = "Puntualidad";
 
-    this.descripcion1 ="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, aut totam. Laudantium, dolores.Molestias minima quasi illum pariatur, at totam in cumque aspernatur, praesentium porro vel placeatvoluptatibusinventorevero.";
-    this.descripcion2 ="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, aut totam. Laudantium, dolores.Molestias minima quasi illum pariatur, at totam in cumque aspernatur, praesentium porro vel placeatvoluptatibusinventorevero.";
-    this.descripcion3 ="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, aut totam. Laudantium, dolores.Molestias minima quasi illum pariatur, at totam in cumque aspernatur, praesentium porro vel placeatvoluptatibusinventorevero.";
+    this.descripcion1 ="Damos garantía de cada trabajo realizado y contamos con los más altos estándares de calidad, además brindamos nuestros servicios con los protocolos establecidos de higiene y salud. ";
+    this.descripcion2 ="Ahorra con nuestros planes mensuales, semestrales o anuales que te ofrecemos para contratos establecidos. Además contamos con los mejores precios del mercado para cada uno de nuestros servicios. ";
+    this.descripcion3 ="Programamos cada trabajo en el tiempo requerido por nuestros clientes para brindar un mejor servicio.";
   
   }
 
