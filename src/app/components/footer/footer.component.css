@@ -43,7 +43,7 @@ input{
     margin-right:25px;
 }
 i{
-    color:#a18d6c;
+    color:#71B100;
 }
 
 
@@ -65,7 +65,7 @@ footer {
 footer .contenedor > div {
     color: #ffffff;
     padding: 0px 20px;
-    font-size: 12px;
+    font-size: 15px;
     width: 100%;
     float: left;
     margin-bottom: 20px;
@@ -79,13 +79,13 @@ footer h3 {
 }
 
 footer h3 {
-    color: #a18d6c;
+    color: #71B100;
 }
 
 
 footer nav.redes-sociales {
     text-align: left;
-    font-size: 5em;
+    font-size: 4em;
 }
 .redes-sociales i{
     padding: 0 20px 0 0; 

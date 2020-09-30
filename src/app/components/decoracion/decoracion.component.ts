@@ -11,8 +11,8 @@ export class Decoracion {
   public descripcion: string;
 
   constructor() {
-    this.titulo = "Encuentra tu decoración exterior";
-    this.descripcion = "Llena el formulario de contacto y un asesor se pondrá en contacto contigo a la brevedad"
+    this.titulo = "Encuentra tu decoración exterior e interior";
+    this.descripcion = "Contáctanos y en brevedad un asesor se pondrá en contacto.";
    }
 
 }

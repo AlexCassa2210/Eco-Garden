@@ -19,7 +19,13 @@
     font-size: 1.8rem;
 
 } 
-
+.contenido-contacto i {
+    margin-right: 5px;
+    color: #71B100;
+} 
+.contenido-contacto span {
+    color: #71B100;
+}
 
 /* .programa {
     position: relative;
